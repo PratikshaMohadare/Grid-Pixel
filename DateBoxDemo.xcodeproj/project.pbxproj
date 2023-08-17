@@ -23,6 +23,7 @@
 		1BDF80172A7025B30079699D /* grid-render-test.json in Resources */ = {isa = PBXBuildFile; fileRef = 1BDF80162A7025B30079699D /* grid-render-test.json */; };
 		1BDF80192A702B570079699D /* TextCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDF80182A702B570079699D /* TextCollectionViewCell.swift */; };
 		1BDF801B2A702B620079699D /* BoxCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDF801A2A702B620079699D /* BoxCollectionViewCell.swift */; };
+		89D9C0C4D1B4DDFA026AB9DE /* Pods_DateBoxDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD514D5F6A2B39A736741A21 /* Pods_DateBoxDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,9 @@
 		1BDF80162A7025B30079699D /* grid-render-test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "grid-render-test.json"; sourceTree = "<group>"; };
 		1BDF80182A702B570079699D /* TextCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCollectionViewCell.swift; sourceTree = "<group>"; };
 		1BDF801A2A702B620079699D /* BoxCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxCollectionViewCell.swift; sourceTree = "<group>"; };
+		844ADCAD7D0D56B67329BF61 /* Pods-DateBoxDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DateBoxDemo.debug.xcconfig"; path = "Target Support Files/Pods-DateBoxDemo/Pods-DateBoxDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C1A78354C080A2DF41A0364A /* Pods-DateBoxDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DateBoxDemo.release.xcconfig"; path = "Target Support Files/Pods-DateBoxDemo/Pods-DateBoxDemo.release.xcconfig"; sourceTree = "<group>"; };
+		CD514D5F6A2B39A736741A21 /* Pods_DateBoxDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DateBoxDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89D9C0C4D1B4DDFA026AB9DE /* Pods_DateBoxDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,7 @@
 			children = (
 				1BDF7FF32A7016A10079699D /* DateBoxDemo */,
 				1BDF7FF22A7016A10079699D /* Products */,
+				8FFF1243317FA0E2C6A2A401 /* Pods */,
 				D28C59F4C39FE236F2F61C35 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +136,19 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		8FFF1243317FA0E2C6A2A401 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				844ADCAD7D0D56B67329BF61 /* Pods-DateBoxDemo.debug.xcconfig */,
+				C1A78354C080A2DF41A0364A /* Pods-DateBoxDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D28C59F4C39FE236F2F61C35 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CD514D5F6A2B39A736741A21 /* Pods_DateBoxDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -406,6 +422,7 @@
 		};
 		1BDF80062A7016A20079699D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 844ADCAD7D0D56B67329BF61 /* Pods-DateBoxDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -434,6 +451,7 @@
 		};
 		1BDF80072A7016A20079699D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1A78354C080A2DF41A0364A /* Pods-DateBoxDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

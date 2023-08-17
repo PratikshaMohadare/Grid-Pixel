@@ -1,0 +1,6 @@
+framework module Pods_DateBoxDemo {
+  umbrella header "Pods-DateBoxDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
